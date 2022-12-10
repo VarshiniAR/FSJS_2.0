@@ -1,0 +1,116 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+.navbar {
+    display: flex;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+.list{
+    display: flex;
+    position: relative;
+    left: 30px;
+}
+
+.list-item{
+
+    display: inline-block;
+    width: 120px;
+    position: relative;
+    left: 80px;
+}
+
+.navbar .grow-list .list > :first-child::after {
+    content: "ˇ";
+    position: absolute;
+    left: 36px;
+    top:3px;
+    font-size:1.5rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+  }
+
+.logo{
+    width: 80px;
+    position: relative;
+    top: 10px;
+    right: 30px;
+    bottom: 10px;
+    left: 60px;
+}
+
+.button-small{
+    background-color: #ba0cc5;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    position: absolute;
+    right: 180px;
+    top:25px;
+    border-color: #ba0cc5;
+    color: #fff;
+}
+
+.hero{
+    background-image: url("./assets/bg.png");
+    position:fixed;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 99%;
+    background-size:cover;
+}
+
+.button-large{
+    background-color: #ba0cc5;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border-color: #ba0cc5;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    bottom: 120px;
+    font-family: system-ui ;
+    right: 20px;
+}
+
+.line {
+    position: relative;
+}
+
+.line:after {
+    content: '';
+    position: absolute;
+    left: 100px;
+    border-right: 3px solid #cfc7c0;
+    top: 10%;
+    bottom: 10%;
+}
+
+.hero-heading{
+    font-size: 90px;
+    width: 860px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+    font-family: system-ui ;
+    text-align: center;
+}
+
+.hero-description{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 130px;
+    font-family: system-ui ;
+    color: #fff;
+}
