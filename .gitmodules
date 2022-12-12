@@ -1,0 +1,3 @@
+[submodule "projects/VSCode-Tailwind-clone"]
+	path = projects/VSCode-Tailwind-clone
+	url = https://github.com/VarshiniAR/VisualStudioCode.git
